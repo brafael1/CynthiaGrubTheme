@@ -1,14 +1,12 @@
 # Installation
 ```bash
-git clone --depth=1 https://github.com/uiriansan/CynthiaGrubTheme && cd CynthiaGrubTheme && ./install.sh
+git clone --depth=1 https://github.com/brafael1/CynthiaGrubTheme && cd CynthiaGrubTheme && ./install.sh
 ```
 
 ### Manual installation
 1. Clone this repo:
-> [!NOTE]
-> You can also download the compressed files from the [latest release](https://github.com/uiriansan/CynthiaGrubTheme/releases/latest).
 ```bash
-git clone --depth=1 https://github.com/uiriansan/CynthiaGrubTheme.git
+git clone --depth=1 https://github.com/brafael1/CynthiaGrubTheme.git
 cd CynthiaGrubTheme
 ```
 2. Copy ```cynthia/``` into ```/boot/grub/themes/```:
@@ -34,9 +32,6 @@ GRUB_SAVEDEFAULT=true # Make sure to uncomment this one.
 
 # Patch GRUB entries
 There are some limitations to what a GRUB theme can do. By default, some GRUB entries have really long names and no icons (e.g. os-prober entries and Advanced options). To change this, we need to edit some GRUB scripts located in ```/etc/grub.d/```. Run ```patch_entries.sh``` to apply some changes automatically.
-
-### Patching manually
-Read the [wiki](https://github.com/uiriansan/CynthiaGrubTheme/wiki/Patch-entries#patching-manually).
 
 # Customizing
 There is a quick guide on how to customize this theme further in the [wiki](https://github.com/uiriansan/CynthiaGrubTheme/wiki/Customizing)
