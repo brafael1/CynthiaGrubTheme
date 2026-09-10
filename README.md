@@ -1,7 +1,3 @@
-<img src="https://github.com/uiriansan/CynthiaGrubTheme/blob/main/wiki/preview.png" width="100%" />
-
-This theme was designed for a 1920x1080 display. Refer to the [wiki](https://github.com/uiriansan/CynthiaGrubTheme/wiki/Customizing#resolution) to see how to customize it for a different resolution.
-
 # Installation
 ```bash
 git clone --depth=1 https://github.com/uiriansan/CynthiaGrubTheme && cd CynthiaGrubTheme && ./install.sh
