@@ -33,9 +33,5 @@ GRUB_SAVEDEFAULT=true # Make sure to uncomment this one.
 # Patch GRUB entries
 There are some limitations to what a GRUB theme can do. By default, some GRUB entries have really long names and no icons (e.g. os-prober entries and Advanced options). To change this, we need to edit some GRUB scripts located in ```/etc/grub.d/```. Run ```patch_entries.sh``` to apply some changes automatically.
 
-# Customizing
-There is a quick guide on how to customize this theme further in the [wiki](https://github.com/uiriansan/CynthiaGrubTheme/wiki/Customizing)
-
 # Special thanks
-- [AdisonCavani/distro-grub-themes](https://github.com/AdisonCavani/distro-grub-themes): Code reference;
-- [fauux.neocities.org](https://fauux.neocities.org/): Cynthia banner image.
+- [uiriansan/LainGrubTheme](https://github.com/uiriansan/LainGrubTheme): Code reference;
