@@ -33,5 +33,14 @@ GRUB_SAVEDEFAULT=true # Make sure to uncomment this one.
 # Patch GRUB entries
 There are some limitations to what a GRUB theme can do. By default, some GRUB entries have really long names and no icons (e.g. os-prober entries and Advanced options). To change this, we need to edit some GRUB scripts located in ```/etc/grub.d/```. Run ```patch_entries.sh``` to apply some changes automatically.
 
+# Dynamic resolution strategy
+The theme layout is resolution-independent. Every position and size in `cynthia/theme.txt` is defined as a percentage of the screen (`40%`, `20%+6`, `25%+20`, ...) instead of a fixed pixel value. GRUB interprets `%` relative to the current screen resolution, and the optional `+N` adds a fixed pixel offset on top of that. As a result, the title, menu, navigation keys and countdown scale automatically and keep the same proportions on any display.
+
+It is working correctly and has been tested on the following resolutions:
+
+- 1920x1080
+- 1366x768
+- 1280x720
+
 # Special thanks
 - [uiriansan/LainGrubTheme](https://github.com/uiriansan/LainGrubTheme): Code reference;
