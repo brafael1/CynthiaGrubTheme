@@ -10,15 +10,6 @@ terminal-width: "100%"
 terminal-height: "100%"
 terminal-border: "0"
 
-# banner
-+ image {
-	left = 371
-	top = 240
-	width = 527
-	height = 600
-	file = "assets/banner.png"
-}
-
 # title
 + label {
 	left = 1152
