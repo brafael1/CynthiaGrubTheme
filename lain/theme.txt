@@ -12,8 +12,8 @@ terminal-border: "0"
 
 # title
 + label {
-	left = 1152
-	top = 375
+	left = 40%
+	top = 20%+6
 	align = "left"
 	text = "Choose an OS"
 	color = "#E4CBB6"
@@ -22,10 +22,10 @@ terminal-border: "0"
 
 # menu
 + boot_menu {
-    left = 1152
-    top = 443
-    width = 385
-    height = 200
+    left = 40%
+    top = 25%+20
+    width = 20%+1
+    height = 20%-16
     item_font = "Ubuntu Regular 17"
     item_color = "#E4CBB6"
     selected_item_color = "#D2738A"
@@ -39,17 +39,17 @@ terminal-border: "0"
 
 # keys
 + image {
-	left = 1152
-	top = 676
-	width = 349
-	height = 30
+	left = 40%
+	top = 50%-17
+	width = 20%-35
+	height = 5%-24
 	file = "assets/keys.png"
 }
 
 # countdown
 + label {
-    left = 1152
-    top = 787
+    left = 40%
+    top = 60%-14
     align = "left"
     id = "__timeout__"
     text = "Booting in %d seconds..."
