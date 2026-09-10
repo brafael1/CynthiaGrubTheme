@@ -1,9 +1,13 @@
+## Preview
+
+<img src="https://github.com/brafael1/CynthiaGrubTheme/blob/main/cynthia/assets/image.png?raw=true" width="100%" />
+
 # Installation
 ```bash
 git clone --depth=1 https://github.com/brafael1/CynthiaGrubTheme && cd CynthiaGrubTheme && ./install.sh
 ```
 
-### Manual installation
+## Manual installation
 1. Clone this repo:
 ```bash
 git clone --depth=1 https://github.com/brafael1/CynthiaGrubTheme.git
